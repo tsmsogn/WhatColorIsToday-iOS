@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C752D13318BB054D00E70589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D13218BB054D00E70589 /* Foundation.framework */; };
+		C752D13518BB054D00E70589 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D13418BB054D00E70589 /* CoreGraphics.framework */; };
+		C752D13718BB054D00E70589 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D13618BB054D00E70589 /* UIKit.framework */; };
+		C752D13D18BB054D00E70589 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C752D13B18BB054D00E70589 /* InfoPlist.strings */; };
+		C752D13F18BB054D00E70589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C752D13E18BB054D00E70589 /* main.m */; };
+		C752D14318BB054D00E70589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C752D14218BB054D00E70589 /* AppDelegate.m */; };
+		C752D14518BB054D00E70589 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C752D14418BB054D00E70589 /* Images.xcassets */; };
+		C752D14C18BB054D00E70589 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D14B18BB054D00E70589 /* XCTest.framework */; };
+		C752D14D18BB054D00E70589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D13218BB054D00E70589 /* Foundation.framework */; };
+		C752D14E18BB054D00E70589 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D13618BB054D00E70589 /* UIKit.framework */; };
+		C752D15618BB054D00E70589 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C752D15418BB054D00E70589 /* InfoPlist.strings */; };
+		C752D15818BB054D00E70589 /* WhatColorIsTodayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C752D15718BB054D00E70589 /* WhatColorIsTodayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C752D14F18BB054D00E70589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C752D12718BB054D00E70589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C752D12E18BB054D00E70589;
+			remoteInfo = WhatColorIsToday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C752D12F18BB054D00E70589 /* WhatColorIsToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatColorIsToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C752D13218BB054D00E70589 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C752D13418BB054D00E70589 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C752D13618BB054D00E70589 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C752D13A18BB054D00E70589 /* WhatColorIsToday-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatColorIsToday-Info.plist"; sourceTree = "<group>"; };
+		C752D13C18BB054D00E70589 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C752D13E18BB054D00E70589 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C752D14018BB054D00E70589 /* WhatColorIsToday-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhatColorIsToday-Prefix.pch"; sourceTree = "<group>"; };
+		C752D14118BB054D00E70589 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C752D14218BB054D00E70589 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C752D14418BB054D00E70589 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C752D14A18BB054D00E70589 /* WhatColorIsTodayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatColorIsTodayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C752D14B18BB054D00E70589 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C752D15318BB054D00E70589 /* WhatColorIsTodayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatColorIsTodayTests-Info.plist"; sourceTree = "<group>"; };
+		C752D15518BB054D00E70589 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C752D15718BB054D00E70589 /* WhatColorIsTodayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatColorIsTodayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C752D12C18BB054D00E70589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C752D13518BB054D00E70589 /* CoreGraphics.framework in Frameworks */,
+				C752D13718BB054D00E70589 /* UIKit.framework in Frameworks */,
+				C752D13318BB054D00E70589 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C752D14718BB054D00E70589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C752D14C18BB054D00E70589 /* XCTest.framework in Frameworks */,
+				C752D14E18BB054D00E70589 /* UIKit.framework in Frameworks */,
+				C752D14D18BB054D00E70589 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C752D12618BB054D00E70589 = {
+			isa = PBXGroup;
+			children = (
+				C752D13818BB054D00E70589 /* WhatColorIsToday */,
+				C752D15118BB054D00E70589 /* WhatColorIsTodayTests */,
+				C752D13118BB054D00E70589 /* Frameworks */,
+				C752D13018BB054D00E70589 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C752D13018BB054D00E70589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C752D12F18BB054D00E70589 /* WhatColorIsToday.app */,
+				C752D14A18BB054D00E70589 /* WhatColorIsTodayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C752D13118BB054D00E70589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C752D13218BB054D00E70589 /* Foundation.framework */,
+				C752D13418BB054D00E70589 /* CoreGraphics.framework */,
+				C752D13618BB054D00E70589 /* UIKit.framework */,
+				C752D14B18BB054D00E70589 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C752D13818BB054D00E70589 /* WhatColorIsToday */ = {
+			isa = PBXGroup;
+			children = (
+				C752D14118BB054D00E70589 /* AppDelegate.h */,
+				C752D14218BB054D00E70589 /* AppDelegate.m */,
+				C752D14418BB054D00E70589 /* Images.xcassets */,
+				C752D13918BB054D00E70589 /* Supporting Files */,
+			);
+			path = WhatColorIsToday;
+			sourceTree = "<group>";
+		};
+		C752D13918BB054D00E70589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C752D13A18BB054D00E70589 /* WhatColorIsToday-Info.plist */,
+				C752D13B18BB054D00E70589 /* InfoPlist.strings */,
+				C752D13E18BB054D00E70589 /* main.m */,
+				C752D14018BB054D00E70589 /* WhatColorIsToday-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C752D15118BB054D00E70589 /* WhatColorIsTodayTests */ = {
+			isa = PBXGroup;
+			children = (
+				C752D15718BB054D00E70589 /* WhatColorIsTodayTests.m */,
+				C752D15218BB054D00E70589 /* Supporting Files */,
+			);
+			path = WhatColorIsTodayTests;
+			sourceTree = "<group>";
+		};
+		C752D15218BB054D00E70589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C752D15318BB054D00E70589 /* WhatColorIsTodayTests-Info.plist */,
+				C752D15418BB054D00E70589 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C752D12E18BB054D00E70589 /* WhatColorIsToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C752D15B18BB054D00E70589 /* Build configuration list for PBXNativeTarget "WhatColorIsToday" */;
+			buildPhases = (
+				C752D12B18BB054D00E70589 /* Sources */,
+				C752D12C18BB054D00E70589 /* Frameworks */,
+				C752D12D18BB054D00E70589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatColorIsToday;
+			productName = WhatColorIsToday;
+			productReference = C752D12F18BB054D00E70589 /* WhatColorIsToday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C752D14918BB054D00E70589 /* WhatColorIsTodayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C752D15E18BB054D00E70589 /* Build configuration list for PBXNativeTarget "WhatColorIsTodayTests" */;
+			buildPhases = (
+				C752D14618BB054D00E70589 /* Sources */,
+				C752D14718BB054D00E70589 /* Frameworks */,
+				C752D14818BB054D00E70589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C752D15018BB054D00E70589 /* PBXTargetDependency */,
+			);
+			name = WhatColorIsTodayTests;
+			productName = WhatColorIsTodayTests;
+			productReference = C752D14A18BB054D00E70589 /* WhatColorIsTodayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C752D12718BB054D00E70589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = tsmsogn;
+				TargetAttributes = {
+					C752D14918BB054D00E70589 = {
+						TestTargetID = C752D12E18BB054D00E70589;
+					};
+				};
+			};
+			buildConfigurationList = C752D12A18BB054D00E70589 /* Build configuration list for PBXProject "WhatColorIsToday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C752D12618BB054D00E70589;
+			productRefGroup = C752D13018BB054D00E70589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C752D12E18BB054D00E70589 /* WhatColorIsToday */,
+				C752D14918BB054D00E70589 /* WhatColorIsTodayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C752D12D18BB054D00E70589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C752D13D18BB054D00E70589 /* InfoPlist.strings in Resources */,
+				C752D14518BB054D00E70589 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C752D14818BB054D00E70589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C752D15618BB054D00E70589 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C752D12B18BB054D00E70589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C752D14318BB054D00E70589 /* AppDelegate.m in Sources */,
+				C752D13F18BB054D00E70589 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C752D14618BB054D00E70589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C752D15818BB054D00E70589 /* WhatColorIsTodayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C752D15018BB054D00E70589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C752D12E18BB054D00E70589 /* WhatColorIsToday */;
+			targetProxy = C752D14F18BB054D00E70589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C752D13B18BB054D00E70589 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C752D13C18BB054D00E70589 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C752D15418BB054D00E70589 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C752D15518BB054D00E70589 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C752D15918BB054D00E70589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C752D15A18BB054D00E70589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C752D15C18BB054D00E70589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatColorIsToday/WhatColorIsToday-Prefix.pch";
+				INFOPLIST_FILE = "WhatColorIsToday/WhatColorIsToday-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C752D15D18BB054D00E70589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatColorIsToday/WhatColorIsToday-Prefix.pch";
+				INFOPLIST_FILE = "WhatColorIsToday/WhatColorIsToday-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C752D15F18BB054D00E70589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatColorIsToday.app/WhatColorIsToday";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatColorIsToday/WhatColorIsToday-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WhatColorIsTodayTests/WhatColorIsTodayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C752D16018BB054D00E70589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatColorIsToday.app/WhatColorIsToday";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatColorIsToday/WhatColorIsToday-Prefix.pch";
+				INFOPLIST_FILE = "WhatColorIsTodayTests/WhatColorIsTodayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C752D12A18BB054D00E70589 /* Build configuration list for PBXProject "WhatColorIsToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C752D15918BB054D00E70589 /* Debug */,
+				C752D15A18BB054D00E70589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C752D15B18BB054D00E70589 /* Build configuration list for PBXNativeTarget "WhatColorIsToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C752D15C18BB054D00E70589 /* Debug */,
+				C752D15D18BB054D00E70589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C752D15E18BB054D00E70589 /* Build configuration list for PBXNativeTarget "WhatColorIsTodayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C752D15F18BB054D00E70589 /* Debug */,
+				C752D16018BB054D00E70589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C752D12718BB054D00E70589 /* Project object */;
+}
