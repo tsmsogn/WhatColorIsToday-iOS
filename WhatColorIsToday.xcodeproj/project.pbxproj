@@ -19,6 +19,20 @@
 		C752D14E18BB054D00E70589 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D13618BB054D00E70589 /* UIKit.framework */; };
 		C752D15618BB054D00E70589 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C752D15418BB054D00E70589 /* InfoPlist.strings */; };
 		C752D15818BB054D00E70589 /* WhatColorIsTodayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C752D15718BB054D00E70589 /* WhatColorIsTodayTests.m */; };
+		C752D16418BB0C0E00E70589 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C752D16218BB0C0E00E70589 /* MainViewController.m */; };
+		C752D16518BB0C0E00E70589 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C752D16318BB0C0E00E70589 /* MainViewController.xib */; };
+		C752D16718BB12AF00E70589 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D16618BB12AF00E70589 /* Parse.framework */; };
+		C752D16918BB12DE00E70589 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D16818BB12DE00E70589 /* AudioToolbox.framework */; };
+		C752D16B18BB12ED00E70589 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D16A18BB12ED00E70589 /* CFNetwork.framework */; };
+		C752D16D18BB130000E70589 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D16C18BB130000E70589 /* CoreLocation.framework */; };
+		C752D16F18BB130A00E70589 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D16E18BB130A00E70589 /* libz.dylib */; };
+		C752D17118BB131600E70589 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D17018BB131600E70589 /* MobileCoreServices.framework */; };
+		C752D17318BB132400E70589 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D17218BB132400E70589 /* QuartzCore.framework */; };
+		C752D17518BB132D00E70589 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D17418BB132D00E70589 /* Security.framework */; };
+		C752D17718BB133600E70589 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D17618BB133600E70589 /* StoreKit.framework */; };
+		C752D17918BB134200E70589 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D17818BB134200E70589 /* SystemConfiguration.framework */; };
+		C752D18018BB1CCA00E70589 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C752D17E18BB1CCA00E70589 /* SignInViewController.m */; };
+		C752D18118BB1CCA00E70589 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C752D17F18BB1CCA00E70589 /* SignInViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,23 @@
 		C752D15318BB054D00E70589 /* WhatColorIsTodayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatColorIsTodayTests-Info.plist"; sourceTree = "<group>"; };
 		C752D15518BB054D00E70589 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C752D15718BB054D00E70589 /* WhatColorIsTodayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatColorIsTodayTests.m; sourceTree = "<group>"; };
+		C752D16118BB0C0E00E70589 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C752D16218BB0C0E00E70589 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C752D16318BB0C0E00E70589 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C752D16618BB12AF00E70589 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		C752D16818BB12DE00E70589 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C752D16A18BB12ED00E70589 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C752D16C18BB130000E70589 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C752D16E18BB130A00E70589 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C752D17018BB131600E70589 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C752D17218BB132400E70589 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C752D17418BB132D00E70589 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C752D17618BB133600E70589 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C752D17818BB134200E70589 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C752D17C18BB183200E70589 /* WhatColorIsToday-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhatColorIsToday-Prefix.pch"; sourceTree = "<group>"; };
+		C752D17D18BB1CC900E70589 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		C752D17E18BB1CCA00E70589 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		C752D17F18BB1CCA00E70589 /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +86,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C752D17918BB134200E70589 /* SystemConfiguration.framework in Frameworks */,
+				C752D17718BB133600E70589 /* StoreKit.framework in Frameworks */,
+				C752D17518BB132D00E70589 /* Security.framework in Frameworks */,
+				C752D17318BB132400E70589 /* QuartzCore.framework in Frameworks */,
+				C752D17118BB131600E70589 /* MobileCoreServices.framework in Frameworks */,
+				C752D16F18BB130A00E70589 /* libz.dylib in Frameworks */,
+				C752D16D18BB130000E70589 /* CoreLocation.framework in Frameworks */,
 				C752D13518BB054D00E70589 /* CoreGraphics.framework in Frameworks */,
+				C752D16B18BB12ED00E70589 /* CFNetwork.framework in Frameworks */,
+				C752D16918BB12DE00E70589 /* AudioToolbox.framework in Frameworks */,
 				C752D13718BB054D00E70589 /* UIKit.framework in Frameworks */,
+				C752D16718BB12AF00E70589 /* Parse.framework in Frameworks */,
 				C752D13318BB054D00E70589 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +137,16 @@
 		C752D13118BB054D00E70589 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C752D17818BB134200E70589 /* SystemConfiguration.framework */,
+				C752D17618BB133600E70589 /* StoreKit.framework */,
+				C752D17418BB132D00E70589 /* Security.framework */,
+				C752D17218BB132400E70589 /* QuartzCore.framework */,
+				C752D17018BB131600E70589 /* MobileCoreServices.framework */,
+				C752D16E18BB130A00E70589 /* libz.dylib */,
+				C752D16C18BB130000E70589 /* CoreLocation.framework */,
+				C752D16A18BB12ED00E70589 /* CFNetwork.framework */,
+				C752D16818BB12DE00E70589 /* AudioToolbox.framework */,
+				C752D16618BB12AF00E70589 /* Parse.framework */,
 				C752D13218BB054D00E70589 /* Foundation.framework */,
 				C752D13418BB054D00E70589 /* CoreGraphics.framework */,
 				C752D13618BB054D00E70589 /* UIKit.framework */,
@@ -108,9 +159,16 @@
 			isa = PBXGroup;
 			children = (
 				C752D14118BB054D00E70589 /* AppDelegate.h */,
+				C752D17D18BB1CC900E70589 /* SignInViewController.h */,
+				C752D17E18BB1CCA00E70589 /* SignInViewController.m */,
+				C752D17F18BB1CCA00E70589 /* SignInViewController.xib */,
+				C752D16118BB0C0E00E70589 /* MainViewController.h */,
+				C752D16218BB0C0E00E70589 /* MainViewController.m */,
+				C752D16318BB0C0E00E70589 /* MainViewController.xib */,
 				C752D14218BB054D00E70589 /* AppDelegate.m */,
 				C752D14418BB054D00E70589 /* Images.xcassets */,
 				C752D13918BB054D00E70589 /* Supporting Files */,
+				C752D17C18BB183200E70589 /* WhatColorIsToday-Prefix.pch */,
 			);
 			path = WhatColorIsToday;
 			sourceTree = "<group>";
@@ -219,7 +277,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C752D18118BB1CCA00E70589 /* SignInViewController.xib in Resources */,
 				C752D13D18BB054D00E70589 /* InfoPlist.strings in Resources */,
+				C752D16518BB0C0E00E70589 /* MainViewController.xib in Resources */,
 				C752D14518BB054D00E70589 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C752D18018BB1CCA00E70589 /* SignInViewController.m in Sources */,
 				C752D14318BB054D00E70589 /* AppDelegate.m in Sources */,
 				C752D13F18BB054D00E70589 /* main.m in Sources */,
+				C752D16418BB0C0E00E70589 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +421,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tsmsogn/Desktop/apps/WhatColorIsToday,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhatColorIsToday/WhatColorIsToday-Prefix.pch";
 				INFOPLIST_FILE = "WhatColorIsToday/WhatColorIsToday-Info.plist";
@@ -372,6 +438,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tsmsogn/Desktop/apps/WhatColorIsToday,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhatColorIsToday/WhatColorIsToday-Prefix.pch";
 				INFOPLIST_FILE = "WhatColorIsToday/WhatColorIsToday-Info.plist";
