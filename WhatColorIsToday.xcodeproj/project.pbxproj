@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7124C3D18BC8B8A0036913E /* sign-in-with-twitter-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = C7124C3C18BC8B8A0036913E /* sign-in-with-twitter-gray.png */; };
 		C752D13318BB054D00E70589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D13218BB054D00E70589 /* Foundation.framework */; };
 		C752D13518BB054D00E70589 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D13418BB054D00E70589 /* CoreGraphics.framework */; };
 		C752D13718BB054D00E70589 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D13618BB054D00E70589 /* UIKit.framework */; };
@@ -33,6 +34,11 @@
 		C752D17918BB134200E70589 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D17818BB134200E70589 /* SystemConfiguration.framework */; };
 		C752D18018BB1CCA00E70589 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C752D17E18BB1CCA00E70589 /* SignInViewController.m */; };
 		C752D18118BB1CCA00E70589 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C752D17F18BB1CCA00E70589 /* SignInViewController.xib */; };
+		C752D18818BC7F1900E70589 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D18718BC7F1900E70589 /* FacebookSDK.framework */; };
+		C75B929718BC82D0001BF790 /* pressed_404.png in Resources */ = {isa = PBXBuildFile; fileRef = C75B929318BC82D0001BF790 /* pressed_404.png */; };
+		C75B929818BC82D0001BF790 /* active_404.png in Resources */ = {isa = PBXBuildFile; fileRef = C75B929418BC82D0001BF790 /* active_404.png */; };
+		C75B929918BC82D0001BF790 /* pressed_404@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75B929518BC82D0001BF790 /* pressed_404@2x.png */; };
+		C75B929A18BC82D0001BF790 /* active_404@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75B929618BC82D0001BF790 /* active_404@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7124C3C18BC8B8A0036913E /* sign-in-with-twitter-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-in-with-twitter-gray.png"; sourceTree = "<group>"; };
 		C752D12F18BB054D00E70589 /* WhatColorIsToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatColorIsToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C752D13218BB054D00E70589 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C752D13418BB054D00E70589 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +86,11 @@
 		C752D17D18BB1CC900E70589 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
 		C752D17E18BB1CCA00E70589 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		C752D17F18BB1CCA00E70589 /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		C752D18718BC7F1900E70589 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		C75B929318BC82D0001BF790 /* pressed_404.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pressed_404.png; sourceTree = "<group>"; };
+		C75B929418BC82D0001BF790 /* active_404.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = active_404.png; sourceTree = "<group>"; };
+		C75B929518BC82D0001BF790 /* pressed_404@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pressed_404@2x.png"; sourceTree = "<group>"; };
+		C75B929618BC82D0001BF790 /* active_404@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "active_404@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 				C752D13718BB054D00E70589 /* UIKit.framework in Frameworks */,
 				C752D16718BB12AF00E70589 /* Parse.framework in Frameworks */,
 				C752D13318BB054D00E70589 /* Foundation.framework in Frameworks */,
+				C752D18818BC7F1900E70589 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +150,7 @@
 		C752D13118BB054D00E70589 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C752D18718BC7F1900E70589 /* FacebookSDK.framework */,
 				C752D17818BB134200E70589 /* SystemConfiguration.framework */,
 				C752D17618BB133600E70589 /* StoreKit.framework */,
 				C752D17418BB132D00E70589 /* Security.framework */,
@@ -158,6 +172,11 @@
 		C752D13818BB054D00E70589 /* WhatColorIsToday */ = {
 			isa = PBXGroup;
 			children = (
+				C7124C3C18BC8B8A0036913E /* sign-in-with-twitter-gray.png */,
+				C75B929318BC82D0001BF790 /* pressed_404.png */,
+				C75B929418BC82D0001BF790 /* active_404.png */,
+				C75B929518BC82D0001BF790 /* pressed_404@2x.png */,
+				C75B929618BC82D0001BF790 /* active_404@2x.png */,
 				C752D14118BB054D00E70589 /* AppDelegate.h */,
 				C752D17D18BB1CC900E70589 /* SignInViewController.h */,
 				C752D17E18BB1CCA00E70589 /* SignInViewController.m */,
@@ -278,9 +297,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C752D18118BB1CCA00E70589 /* SignInViewController.xib in Resources */,
+				C75B929A18BC82D0001BF790 /* active_404@2x.png in Resources */,
 				C752D13D18BB054D00E70589 /* InfoPlist.strings in Resources */,
+				C75B929818BC82D0001BF790 /* active_404.png in Resources */,
+				C7124C3D18BC8B8A0036913E /* sign-in-with-twitter-gray.png in Resources */,
+				C75B929718BC82D0001BF790 /* pressed_404.png in Resources */,
 				C752D16518BB0C0E00E70589 /* MainViewController.xib in Resources */,
 				C752D14518BB054D00E70589 /* Images.xcassets in Resources */,
+				C75B929918BC82D0001BF790 /* pressed_404@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +448,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/tsmsogn/Desktop/apps/WhatColorIsToday,
+					/Users/tsmsogn/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhatColorIsToday/WhatColorIsToday-Prefix.pch";
@@ -441,6 +466,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/tsmsogn/Desktop/apps/WhatColorIsToday,
+					/Users/tsmsogn/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhatColorIsToday/WhatColorIsToday-Prefix.pch";
@@ -511,6 +537,7 @@
 				C752D15D18BB054D00E70589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C752D15E18BB054D00E70589 /* Build configuration list for PBXNativeTarget "WhatColorIsTodayTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +546,7 @@
 				C752D16018BB054D00E70589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

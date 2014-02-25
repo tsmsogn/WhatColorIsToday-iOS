@@ -16,5 +16,7 @@
 - (IBAction)signInButtonPressed:(id)sender;
 - (NSString*)getUsername;
 - (NSString*)getPassword;
+- (IBAction)facebooButtonPressed:(id)sender;
+- (IBAction)twitterButtonPressed:(id)sender;
 
 @end
