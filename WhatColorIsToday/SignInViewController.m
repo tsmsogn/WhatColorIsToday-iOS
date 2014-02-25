@@ -89,6 +89,46 @@
     return self.password.text;
 }
 
+- (IBAction)facebooButtonPressed:(id)sender {
+    NSLog(@"facebooButtonPressed");
+    [PFFacebookUtils logInWithPermissions:nil block:^(PFUser *user, NSError *error) {
+        if (!user) {
+            NSLog(@"Uh oh. The user cancelled the Facebook login.");
+            UIAlertView *alertView = [[UIAlertView alloc]
+                                      initWithTitle:@"" message:@"Uh oh. The user cancelled the Facebook login." delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+            [alertView show];
+        } else if (user.isNew) {
+            NSLog(@"User signed up and logged in through Facebook!");
+            [self dismissViewControllerAnimated:NO completion:nil];
+        } else {
+            NSLog(@"User logged in through Facebook!");
+            [self dismissViewControllerAnimated:NO completion:nil];
+        }
+    }];
+}
+
+- (IBAction)twitterButtonPressed:(id)sender {
+    [PFTwitterUtils logInWithBlock:^(PFUser *user, NSError *error) {
+        if (!user) {
+            NSLog(@"Uh oh. The user cancelled the Twitter login.");
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"" message:@"Uh oh. The user cancelled the Twitter login." delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+            [alertView show];
+            return;
+        } else if (user.isNew) {
+            NSLog(@"User signed up and logged in with Twitter!");
+            [self dismissViewControllerAnimated:NO completion:nil];
+        } else {
+            NSLog(@"User logged in with Twitter!");
+            [self dismissViewControllerAnimated:NO completion:nil];
+        }     
+    }];
+}
+
+- (IBAction)forgotPasswordPressed:(id)sender {
+    ForgotPasswordViewController *forgotPasswordView = [[ForgotPasswordViewController alloc]init];
+    [self presentViewController:forgotPasswordView animated:NO completion:nil];
+}
+
 - (NSString*)getUsername
 {
     return self.username.text;

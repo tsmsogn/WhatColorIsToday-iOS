@@ -35,6 +35,7 @@
 {
     PFUser *currentUser = [PFUser currentUser];
     if (currentUser) {
+        PFObject *posts = [[PFObject alloc] initWithClassName:@"Posts"];
     } else {
         NSLog(@"Redirect to Login View");
         SignInViewController *signInViewController = [[SignInViewController alloc] init];

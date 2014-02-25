@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A1136E11-90B0-40D1-8E70-39F435DC9D5C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WhatColorIsToday</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>29444FE2-D69B-418A-86B3-981FF860FD15</key>
+		<string>https://github.com/tsmsogn/WhatColorIsToday-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WhatColorIsToday.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>29444FE2-D69B-418A-86B3-981FF860FD15</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tsmsogn/WhatColorIsToday-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>29444FE2-D69B-418A-86B3-981FF860FD15</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>29444FE2-D69B-418A-86B3-981FF860FD15</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WhatColorIsToday</string>
+		</dict>
+	</array>
+</dict>
+</plist>
