@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C7124C3D18BC8B8A0036913E /* sign-in-with-twitter-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = C7124C3C18BC8B8A0036913E /* sign-in-with-twitter-gray.png */; };
+		C7124C4118BC92DE0036913E /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7124C3F18BC92DE0036913E /* ForgotPasswordViewController.m */; };
+		C7124C4218BC92DE0036913E /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7124C4018BC92DE0036913E /* ForgotPasswordViewController.xib */; };
 		C752D13318BB054D00E70589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D13218BB054D00E70589 /* Foundation.framework */; };
 		C752D13518BB054D00E70589 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D13418BB054D00E70589 /* CoreGraphics.framework */; };
 		C752D13718BB054D00E70589 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752D13618BB054D00E70589 /* UIKit.framework */; };
@@ -53,6 +55,9 @@
 
 /* Begin PBXFileReference section */
 		C7124C3C18BC8B8A0036913E /* sign-in-with-twitter-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-in-with-twitter-gray.png"; sourceTree = "<group>"; };
+		C7124C3E18BC92DE0036913E /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		C7124C3F18BC92DE0036913E /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		C7124C4018BC92DE0036913E /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
 		C752D12F18BB054D00E70589 /* WhatColorIsToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatColorIsToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C752D13218BB054D00E70589 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C752D13418BB054D00E70589 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -188,6 +193,9 @@
 				C752D14418BB054D00E70589 /* Images.xcassets */,
 				C752D13918BB054D00E70589 /* Supporting Files */,
 				C752D17C18BB183200E70589 /* WhatColorIsToday-Prefix.pch */,
+				C7124C3E18BC92DE0036913E /* ForgotPasswordViewController.h */,
+				C7124C3F18BC92DE0036913E /* ForgotPasswordViewController.m */,
+				C7124C4018BC92DE0036913E /* ForgotPasswordViewController.xib */,
 			);
 			path = WhatColorIsToday;
 			sourceTree = "<group>";
@@ -300,6 +308,7 @@
 				C75B929A18BC82D0001BF790 /* active_404@2x.png in Resources */,
 				C752D13D18BB054D00E70589 /* InfoPlist.strings in Resources */,
 				C75B929818BC82D0001BF790 /* active_404.png in Resources */,
+				C7124C4218BC92DE0036913E /* ForgotPasswordViewController.xib in Resources */,
 				C7124C3D18BC8B8A0036913E /* sign-in-with-twitter-gray.png in Resources */,
 				C75B929718BC82D0001BF790 /* pressed_404.png in Resources */,
 				C752D16518BB0C0E00E70589 /* MainViewController.xib in Resources */,
@@ -326,6 +335,7 @@
 				C752D18018BB1CCA00E70589 /* SignInViewController.m in Sources */,
 				C752D14318BB054D00E70589 /* AppDelegate.m in Sources */,
 				C752D13F18BB054D00E70589 /* main.m in Sources */,
+				C7124C4118BC92DE0036913E /* ForgotPasswordViewController.m in Sources */,
 				C752D16418BB0C0E00E70589 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

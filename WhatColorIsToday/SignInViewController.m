@@ -124,6 +124,11 @@
     }];
 }
 
+- (IBAction)forgotPasswordPressed:(id)sender {
+    ForgotPasswordViewController *forgotPasswordView = [[ForgotPasswordViewController alloc]init];
+    [self presentViewController:forgotPasswordView animated:NO completion:nil];
+}
+
 - (NSString*)getUsername
 {
     return self.username.text;

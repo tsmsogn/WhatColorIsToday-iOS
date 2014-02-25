@@ -8,6 +8,7 @@
 
 #import <Parse/Parse.h> // TODO
 #import <UIKit/UIKit.h>
+#import "ForgotPasswordViewController.h"
 
 @interface SignInViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *password;
@@ -18,5 +19,6 @@
 - (NSString*)getPassword;
 - (IBAction)facebooButtonPressed:(id)sender;
 - (IBAction)twitterButtonPressed:(id)sender;
+- (IBAction)forgotPasswordPressed:(id)sender;
 
 @end
